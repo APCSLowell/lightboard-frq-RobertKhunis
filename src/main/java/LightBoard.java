@@ -34,7 +34,7 @@ lights = new boolean[numRows][numCols];
           count++;
         }
       }
-      if(count&2==0){
+      if(count%2==0){
         return false;
       }
     } else if (!lights[row][col]){
